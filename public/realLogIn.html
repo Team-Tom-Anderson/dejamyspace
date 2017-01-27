@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html id="log" ng-app='app'>
+  <head>
+    <meta charset="utf-8">
+    <title>dejamyspace</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <base href="/">
+  </head>
+  <body id="log" class="container">
+<div class="colorWrap">
+
+    <div class="middleMe">
+        <form>
+          <img src="https://tctechcrunch2011.files.wordpress.com/2013/08/myspace-logo.gif?w=800&h=300&crop=1" alt="">
+        <div class="form-group">
+          <label for="formGroupExampleInput">User Name:</label>
+          <input type="text" class="form-control" id="formGroupExampleInput" placeholder="User name" width="80">
+        </div>
+        <div class="form-group">
+          <label for="formGroupExampleInput2">Password:</label>
+          <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Password" width="80">
+        </div>
+        <button href="mainView.html" class="btn btn-warning btn-lg" type="button" name="button">Sign In!</button>
+      </form>
+    </div>
+
+  </div>
+
+    <ui-view></ui-view>
+
+    <script src="https://use.fontawesome.com/00eee0672f.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js" charset="utf-8"></script>
+    <script src="https://unpkg.com/angular-ui-router@1.0.0-beta.3/release/angular-ui-router.js"></script>
+    <script src="app.js" charset="utf-8"></script>
+    <script src="/module.config.js" charset="utf-8"></script>
+    <script src="/friends/friends.controller.js" charset="utf-8"></script>
+    <script src="/friends/friends.service.js" charset="utf-8"></script>
+    <script src="/layout/layout.controller.js" charset="utf-8"></script>
+    <script src="/layout/layout.service.js" charset="utf-8"></script>
+    <script src="/nav/nav.controller.js" charset="utf-8"></script>
+  </body>
+</html>

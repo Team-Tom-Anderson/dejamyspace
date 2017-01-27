@@ -62,3 +62,9 @@ tr {
   height: 8em;
   width: auto;
 }
+.middleMe{
+  margin-top: 8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
