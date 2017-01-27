@@ -58,3 +58,7 @@ tr {
 .space-bottom{
   margin-bottom: 1em;
 }
+.friends {
+  height: 8em;
+  width: auto;
+}

@@ -12,7 +12,7 @@ exports.seed = function(knex, Promise) {
         knex('friends').insert({id: 5, friend_name: 'Julia Roberts', image_url: 'http://cineplex.media.baselineresearch.com/images/84715/84715_full.jpg'}),
         knex('friends').insert({id: 6, friend_name: 'George Bush', image_url: 'https://upload.wikimedia.org/wikipedia/commons/d/d4/George-W-Bush.jpeg'}),
         knex('friends').insert({id: 7, friend_name: 'Eddie Murphy', image_url: 'http://i.forbesimg.com/images/2001/01/05/movers2_250x255.jpg'}),
-        knex('friends').insert({id: 8, friend_name: 'Justin Timberlake', image_url: 'http://s27.photobucket.com/user/sophiabushfan_/media/BJ-11_zpse5d7e57b.png.html'})
+        knex('friends').insert({id: 8, friend_name: 'Justin Timberlake', image_url: 'https://s-media-cache-ak0.pinimg.com/736x/a9/bb/b1/a9bbb1db2210e86384675150280ae48d.jpg'})
       ]);
     });
 };

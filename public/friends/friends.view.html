@@ -1,4 +1,8 @@
-<h1>Friends</h1>
-<p>
-  EHH+SFKJSDKLFJSKLDFJSDKLFJLSDFJ
-</p>
+<div>
+  <div class="row">
+    <div class="col-xs-3" ng-repeat='friend in $ctrl.friends'>
+      <img class="friends" src='{{friend.image_url}}' />
+      <p>{{friend.friend_name}}</p>
+    </div>
+  </div>
+</div>
