@@ -3,19 +3,52 @@
   border-color:#001C8A;
   color:#fff;
 }
-
 .myspaceimg {
   max-height: 4em;
 }
 li {
   list-style: none;
 }
-
 .textrow {
   display:flex;
   flex-direction: row;
 }
-
 .userInfo {
   margin-top: 4em;
+}
+.blackBox {
+  height: 8em;
+  border: 5px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.orangeBar{
+  background-color: #FBD6A2;
+  height: 2em;
+  color: #E07F31;
+}
+.orangeText {
+    color: #E07F31;
+}
+
+.blueBorder {
+  background-color: #71ABD9;
+}
+
+.white {
+  color: white;
+}
+
+.left-side {
+  background-color: #B9D7F5;
+  color: #71ABD9;
+}
+
+.right-side {
+  background-color: #D8EFFE;
+}
+
+tr {
+  border: 5px solid white;
 }
