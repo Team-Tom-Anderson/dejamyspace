@@ -36,6 +36,7 @@ li {
   background-color: #71ABD9;
 }
 
+
 .white {
   color: white;
 }
@@ -48,7 +49,12 @@ li {
 .right-side {
   background-color: #D8EFFE;
 }
-
+.white-side {
+  background-color: white;
+}
 tr {
   border: 5px solid white;
+}
+.space-bottom{
+  margin-bottom: 1em;
 }
